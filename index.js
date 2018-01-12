@@ -13,3 +13,11 @@ function logShout(arg) {
 function logWhisper(arg) {
   console.log(whisper(arg))
 }
+
+function sayHiToGrandma(arg) {
+  if (arg === whisper(arg)) {
+    return "I can't hear you!"
+  } else if (arg === shout(arg)) {
+    return "YES INDEED!"
+  }
+}
